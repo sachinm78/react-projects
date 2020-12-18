@@ -250,3 +250,10 @@ main {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
 }
+
+/* .icon {
+  font-size: 4rem;
+  color:hsl(205, 86%, 17%);
+  margin-top: 0.5rem;
+  position: absolute;
+} */
