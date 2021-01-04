@@ -27,12 +27,11 @@ function App() {
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
-        <button className='btn'>generate</button>
+        <button type="submit" className='btn'>generate</button>
       </form>
       <article className='lorem-text'>
-        {text.map((item, index) => {
-          return <p key={index}>{item}</p>;
-        })}
+        <p>sample text</p>
+        <p>more sample text</p>
       </article>
     </section>
   );
