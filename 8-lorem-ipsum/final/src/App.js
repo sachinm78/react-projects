@@ -30,8 +30,9 @@ function App() {
         <button type="submit" className='btn'>generate</button>
       </form>
       <article className='lorem-text'>
-        <p>sample text</p>
-        <p>more sample text</p>
+        {text.map((item, index) => {
+          return <p key={index}>{item}</p>;
+        })}
       </article>
     </section>
   );
