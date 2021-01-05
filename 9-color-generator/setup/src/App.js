@@ -36,9 +36,17 @@ function App() {
           </button>
         </form>
       </section>
-      <section className="colors">
-        <h4>list goes here</h4>
-        
+      <section className='colors'>
+        {list.map((color, index) => {
+          return (
+            <SingleColor
+              key={index}
+              {...color}
+              index={index}
+              hexColor={color.hex}
+            />
+          )
+        })}
       </section>
     </>
   )
