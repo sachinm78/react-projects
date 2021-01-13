@@ -11,7 +11,7 @@ const AppProvider = ({ children }) => {
 
   return (
     <AppContext.Provider
-      value={{ loading, cocktails, searchTerm, setSearchTerm }}
+      value={{ loading, cocktails, setSearchTerm }}
     >
       {children}
     </AppContext.Provider>
